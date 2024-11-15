@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
+/* Logo Linkedin */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
+/* Logo Github */
+
 
 *{
     margin: 0px;
@@ -118,6 +124,7 @@ header a{
 
 /* FIM DO ESTILOD CAIXA HABILIDADES */
 
+
 #caixaSobremim .titulo > h1{
     font-size: 120px;
     background: linear-gradient(to right ,#0000FE, #90CAF9);
@@ -126,6 +133,8 @@ header a{
     display: inline-block;
     margin-top: 40px;
 }
+
+/* -------------------------------------------------- */
 
 
 #caixaRedes .titulo > h1{
@@ -137,14 +146,71 @@ header a{
     margin-top: 40px;
 }
 
+#icones_redes{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin-left: 10vw;
+    height: 300px;
+}
+
+#primeiraRede, #segundaRede{
+    border: 1px solid #aaaaaa;
+    width: 20vw;
+    height: 40vh;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+
+.textoRede{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.textoRede > a{
+    text-decoration: none;
+}
+
+#primeiraRede:hover{
+    box-shadow: 0px 0px 10px #0000FE;
+    background-color: #0000FE;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#segundaRede:hover{
+    box-shadow: 0px 0px 10px #0000FE;
+    background-color: #0000FE;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+/* -------------------------------------------------- */
+
 
 footer{
     width: 100vw;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
 }
 
 #rodape{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #aaaaaa;
+    font-size: 15px;
 }
