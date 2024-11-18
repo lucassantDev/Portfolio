@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Portfólio</title>
 </head>
 <body>
@@ -41,19 +40,61 @@
             <h1>LucassantDev</h1>
             <p><strong>Buscando evoluir, todos os dias, na área <br> da programação!</strong></p>
         </div>
-    </div>
+    </div> <!-- FIM DIV CAIXA INICIO-->
+
 
     <div class="medidaDiv_01" id="caixaHabilidades">
+        
         <div class="titulo">
             <h1>Habilidades</h1>
         </div>
-    </div>
+
+        <div id="skills">
+            <div>
+                <h3>
+                    HTML
+                </h3>
+                <div class="experiencia">
+                    <div id="skills_01"></div>
+                </div>
+            </div>
+
+            <div>
+                <h3>
+                    CSS
+                </h3>
+                <div class="experiencia">
+                    <div id="skills_02"></div>
+                </div>
+            </div>
+
+            <div>
+                <h3>
+                    PHP
+                </h3>
+                <div class="experiencia">
+                    <div id="skills_03"></div>
+                </div>
+            </div>
+
+            <div>
+                <h3>
+                    MySQL Workbench
+                </h3>
+                <div class="experiencia">
+                    <div id="skills_04"></div>
+                </div>
+            </div>
+
+        </div>
+    </div> <!-- FIM DIV CAIXA HABILIDADES-->
+
 
     <div class="medidaDiv_01" id="caixaSobremim">
         <div class="titulo">
             <h1>Sobre mim</h1>
         </div>
-    </div>
+    </div> <!-- FIM DIV CAIXA SOBRE MIM-->
 
 
     <div class="medidaDiv_01" id="caixaRedes">
@@ -95,5 +136,21 @@
         </div>
     </footer>
 
+
+    <script>
+        var linkedin = document.querySelector("#primeiraRede");
+        var gitHub = document.querySelector("#segundaRede");
+       
+        gitHub.addEventListener("click", function(){
+            window.open("https://github.com/lucassantDev", "_blank");
+        });
+
+        linkedin.addEventListener("click", function(){
+            window.open("https://www.linkedin.com/in/lucas-ferreira-a07930309/", "_blank");
+        });
+
+    </script>
 </body>
 </html>
+
+
