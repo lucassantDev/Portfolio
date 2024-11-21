@@ -118,8 +118,10 @@ header a{
 #skills{
     width: 80vw;
     height: 300px;
-    border: 1px solid red;
+    border: 1px solid #B7B7B8;
+    border-radius: 15px;
     margin-left: 10vw;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
