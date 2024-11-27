@@ -33,7 +33,7 @@ header{
 
 header nav{
     width: 60%;
-    border-bottom: 1px solid #0000FE;
+    border-bottom: 1px solid #B7B7B8;
     height: 55px;
     padding: 5px;
     display: flex;
@@ -63,12 +63,18 @@ header a{
 /* FIM DO ESTILO HEADER */
 
 
+
 /* ESTILO MEDIDADIV_01 */
 
 .medidaDiv_01{
     width: 100vw;
     height: 700px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+hr{
+    width: 80vw;
+    margin-left: 10vw;
 }
 
 /* FIM DO ESTILO MEDIDADIV_01 */
@@ -246,6 +252,10 @@ header a{
     -webkit-text-fill-color: transparent;
     display: inline-block;
     margin-top: 40px;
+}
+
+#caixaRedes .titulo > p{
+    color: black;
 }
 
 #icones_redes{
